@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+Git init creates a new empty repository, and prepares it for tracking files that are subsequently added to it. 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+You cannot work on files in the staging area, but they are not part of the repository. They can be overwritten or deleted in preparation for committal. This offers a way to prepare, review, and modify a commit candidate before it is actually committed. 
