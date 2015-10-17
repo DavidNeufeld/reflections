@@ -1,0 +1,24 @@
+Reflections file
+Using a diff tool tool to compare files helps track down bugs and changes by restricting the code being inspected to only the lines that are different between the files. 
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+By not spending any time manually naming and managing different versions of files. 
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+The advantage of manually choosing commits is that the commit points will make logical sense when being reviewed or restored. The disadvantage is with developers who neglect to do this. 
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+VCSs like Git are used in multi file systems such as computer program development where this makes sense. Google docs tends to only deal with single file applications such as word processing or spreadsheets. 
+
+How can you use the commands git log and git diff to view the history of files?
+Git log lists the commits in the directory along with their IDs, while git diff shows the changes between any two commits in terms of deleted and inserted lines. 
+
+How might using version control make you more confident to make changes that could break something?
+By consistently committing all significant changes any mistakes can be found using checkout and diff. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Keeping track of this ridiculous reflections file...
+
+
+
+
