@@ -13,4 +13,8 @@ Branches help when working on separate versions of a program that may later merg
 How do the diagrams help you visualize the branch structure?
 I could clearly see the ancestral chain of commits; which commits were and were not related, an how. 
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging two branches together combines the changes from the branches into one of the two branches, to create a single branch. Changes that are not obvious enough to be merged automaticaly, must be merged manually before the merge is allowed. In the branch diagram, the branch accepts the changes from another branch in the form of a commit, with the other branch terminating into the commit. This indicates which branch survives the commit and which branch is terminated. The merge commit point, subsequently, shows the two branches as parents. 
+
+
 
