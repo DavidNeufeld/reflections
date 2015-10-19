@@ -16,5 +16,9 @@ I could clearly see the ancestral chain of commits; which commits were and were 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Merging two branches together combines the changes from the branches into one of the two branches, to create a single branch. Changes that are not obvious enough to be merged automaticaly, must be merged manually before the merge is allowed. In the branch diagram, the branch accepts the changes from another branch in the form of a commit, with the other branch terminating into the commit. This indicates which branch survives the commit and which branch is terminated. The merge commit point, subsequently, shows the two branches as parents. 
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging is consistent and saves time, but at the expense of an additional learning curve or over-reliance on accepting changes without enough investigation. Manual merges are fully investigated but their tedious nature would introduce human error and increase development time and cost. 
+
+
 
 
