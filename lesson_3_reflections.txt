@@ -1,3 +1,5 @@
 When would you want to use a remote repository rather than keeping all your work local?
 Remote repos are used when publishing your own work, fetching others published work, and for collaborating with others.
 
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Automatically pulling changes from a remote would result in constantly having to spend effort merging changes on the remote with the local tracked branches, instead of developing your own branches and merging with the remote on your own terms. 
