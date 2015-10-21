@@ -6,3 +6,8 @@ Automatically pulling changes from a remote would result in constantly having to
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 Branches are divergent development paths within the same repository that may merge back into the repository. Clones are local copies of remote repositories that can be manually synchronised with the remote using pull and push requests. Forks are remote copies of other remote repositories that are not intended for synchronization between the remotes. Clones of forked repositories can be synchronized with the forked remoted without being synchronized with the repository the original remote of the forked remote.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+It's much easier to manage merges with the remote as you are more aware of changes to the remote, can merge changes when offline, and can also "change the changes" without fear of corrupting the remote repository. Fast forward merges are more likely to happen. 
+
+
